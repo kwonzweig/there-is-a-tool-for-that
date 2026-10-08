@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "there-is-a-tool-for-that",
+  "description": "Agent skill that finds and vets existing tools, libraries, services and AI skills before your agent builds from scratch.",
+  "owner": {
+    "name": "Sang Il Kwon",
+    "url": "https://github.com/kwonzweig"
+  },
+  "plugins": [
+    {
+      "name": "find-tools",
+      "source": "./",
+      "description": "Find and vet existing tools, libraries, services and AI skills before building from scratch.",
+      "category": "productivity"
+    }
+  ]
+}

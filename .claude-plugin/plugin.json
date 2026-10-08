@@ -1,0 +1,13 @@
+{
+  "name": "find-tools",
+  "version": "1.0.0",
+  "description": "Find and vet existing tools, libraries, services and AI skills before building from scratch.",
+  "author": {
+    "name": "Sang Il Kwon",
+    "url": "https://github.com/kwonzweig"
+  },
+  "homepage": "https://github.com/kwonzweig/there-is-a-tool-for-that",
+  "repository": "https://github.com/kwonzweig/there-is-a-tool-for-that",
+  "license": "MIT",
+  "keywords": ["agent-skills", "tool-discovery", "research", "reuse", "build-vs-buy"]
+}
