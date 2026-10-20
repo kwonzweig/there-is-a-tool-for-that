@@ -29,9 +29,9 @@ npx skills add kwonzweig/there-is-a-tool-for-that
 ## What the agent does
 
 1. Checks what you already have.
-2. In an unfamiliar field, learns the current terms first and searches with them.
-3. Reads the real docs or `SKILL.md` instead of trusting listings and star counts.
-4. Picks one, or tells you what it searched and what it couldn't check. It doesn't claim "there's no tool for that" after one search.
+2. For adoption or replacement decisions, reads practitioner comparisons and real usage accounts to understand recurring approaches and widely used options.
+3. Weighs adoption and independent experience alongside the actual docs, code or `SKILL.md`, using the same standard for established and niche tools.
+4. Explains how that evidence affected the shortlist and choice, including what it couldn't verify.
 
 It kicks in before unfamiliar or recurring work, or when you ask for a tool. When Vercel's [find-skills](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) is available, it reads and follows that skill's discovery procedure, including catalog checks. Otherwise, it starts skill discovery at [skills.sh](https://skills.sh/). Unread sources stay visible as gaps instead of becoming a finished recommendation.
 

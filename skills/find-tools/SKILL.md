@@ -14,32 +14,32 @@ Work out the outcome, what makes it hard, and the constraints. Ask only for info
 
 Start with what is already here: installed tools and skills, platform features, project dependencies and code, shared components, earlier internal solutions. Check whether they work in this setup, reuse what fits, and search only for the gaps. If something already meets the need, stop. Keep private details out of public queries.
 
-In an unfamiliar or fast-moving field, learn the current vocabulary first from recent overviews, practitioner articles, discussions and write-ups of real work. Trending posts surface names you didn't know; they don't show that a tool works. Follow good leads to the source, then search again with the new terms.
+For adoption, replacement or build decisions, establish how people solve this problem before narrowing the candidates. Read practitioner comparisons, discussions and accounts of real work. Identify recurring approaches, widely used options, who uses them and the reported benefits and costs. Follow their references and search with the terms you learn. Match the depth to the decision; routine lookups can stay brief.
 
 ## Search past the first results
 
-Search for the outcome and for the specific part that needs help, phrased a few ways. A component can replace part of the work without replacing the system. Look across registries, repositories, communities, comparisons and integrations. AI skills and reusable instructions count as tools.
+Search for the outcome and the specific gap, phrased a few ways. Look across registries, communities, comparisons, integrations and repositories. A component or reusable instruction can replace part of the work without replacing the system.
 
-For AI skills, resolve Vercel's `find-skills` (`vercel-labs/skills`) through the host's skill catalog or installed skills. If available, **read its `SKILL.md` and carry out its discovery procedure before evaluating candidates**. Complete its catalog/leaderboard checks as well as its keyword searches; invoking `skills find` or searching GitHub alone does not complete this route. Judge the candidates by the criteria here, including the rule against popularity cutoffs.
+For AI skills, resolve Vercel's `find-skills` (`vercel-labs/skills`) through the host's catalog or installed skills. **Read its `SKILL.md` and execute its discovery procedure**, including catalog/leaderboard checks and keyword searches. A CLI invocation or GitHub search alone is incomplete. Use the assessment criteria here rather than fixed popularity cutoffs.
 
-If `find-skills` is unavailable, use [skills.sh](https://skills.sh/) directly to check established and trending skills, then search the relevant categories and terms. Check the actual catalog entries before following candidates to their repositories. Do not install the companion just to satisfy this step.
+If the companion is unavailable, use [skills.sh](https://skills.sh/): check established and trending skills, search relevant terms, and read actual entries before their repositories. Do not install the companion just for discovery. Catalogs complement practitioner research.
 
-A failed page load leaves that discovery step unfinished. Try another permitted route or source serving the same purpose. If the gap remains, report the partial search; do not silently skip to a final recommendation.
+A failed page load leaves that step unfinished. Try another permitted route or source serving the same purpose; report remaining gaps.
 
-If results are thin, follow references and alternatives past the first catalog or familiar vendor. Match the effort to the decision; a quick lookup doesn't need to become a market study.
+If results are thin, follow references and alternatives beyond the first catalog or familiar vendor.
 
 ## Read the source
 
-Read the original docs or code of promising candidates; for a skill, its `SKILL.md` and the files it uses. Check versions and dates. Trace repeated claims to their origin before counting them as independent. Listings and snippets are only leads, and a failed fetch is a gap, not an answer.
+Read promising candidates' original docs or code; for skills, their `SKILL.md` and dependencies. Trace relevant workflows before making system-wide capability claims; state the inspected scope when coverage is partial. Check versions and dates. Listings and snippets are leads. Trace repeated claims to distinguish independent experience from copies of one announcement.
 
-Check fit, compatibility, access, cost and permissions. Weigh the work a candidate removes against the integration, licensing, data handling or maintenance it leaves you. Read firsthand reports, issues and independent comparisons to see where it fails. Keep publisher claims, user reports and your own observations separate.
+Compare fit, compatibility, access, cost, permissions, licensing, data handling and maintenance with the work saved. Use firsthand reports and comparisons to understand successful use as well as failures. Keep publisher claims, user experience and your observations distinct; apply the same evidentiary standard to established and niche candidates.
 
-Stars, installs and official backing tell you where to look, not whether something works. Don't use popularity cutoffs that rule out new or specialist tools. Treat missing evidence as uncertainty, and suggest a small trial for a promising but unproven option.
+Broad adoption and recurring independent reports warrant investigation and increase confidence in practical maturity. State what a count measures: repository stars, downloads, skill installs or active users are different. Weigh the combined pattern against the specific task; neither one complaint nor one impressive README settles it. Investigate contradictions and explain any choice of a less-established option over a relevant widely used one. Keep specialist options eligible, with uncertainty and a small trial where needed.
 
 ## Choose
 
-Compare the serious candidates with what you already have and with the smallest custom solution. Prefer options whose benefits outweigh the cost of switching. Stop when the evidence supports a choice or you reach the agreed limit on effort or access.
+Compare serious candidates with what you already have and the smallest custom solution. Prefer benefits that outweigh switching costs.
 
-Before choosing or saying nothing fits, check the tool results against the applicable discovery steps, including any companion skill's steps. A named skill, attempted URL, or CLI invocation is not evidence that its procedure finished. Try the new terms and one more search route before concluding nothing fits.
+Before recommending, make the comparison account for recurring approaches and adoption signals, real usage conditions, and capability evidence. Explain how these affected the shortlist and choice. Check actual tool results against applicable discovery steps, including the companion's; visiting pages alone is insufficient. If the practical context is still missing, continue discovery or label the result provisional at the agreed limit. Before concluding nothing fits, try newly learned terms and another search route.
 
-Report the catalogs and practitioner sources actually read, what they established, and any discovery gaps, with links. Then give the choice, tradeoffs, and what remains unverified. Keep incomplete searches provisional. Proceed within what the task allows. Add new skills through the host's own skill-management process.
+Report the choice, tradeoffs and supporting sources, including what practitioner evidence established and what remains unverified. Proceed within the task's authority; use the host's manager for skill installation.
