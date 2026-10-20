@@ -33,7 +33,7 @@ npx skills add kwonzweig/there-is-a-tool-for-that
 3. Reads the real docs or `SKILL.md` instead of trusting listings and star counts.
 4. Picks one, or tells you what it searched and what it couldn't check. It doesn't claim "there's no tool for that" after one search.
 
-It kicks in before unfamiliar or recurring work, or when you ask for a tool. If Vercel's [find-skills](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) is installed, it uses that to search for skills.
+It kicks in before unfamiliar or recurring work, or when you ask for a tool. When Vercel's [find-skills](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) is available, it reads and follows that skill's discovery procedure, including catalog checks. Otherwise, it starts skill discovery at [skills.sh](https://skills.sh/). Unread sources stay visible as gaps instead of becoming a finished recommendation.
 
 The full instructions are in [SKILL.md](skills/find-tools/SKILL.md).
 

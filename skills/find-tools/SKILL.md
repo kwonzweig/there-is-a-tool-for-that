@@ -20,7 +20,11 @@ In an unfamiliar or fast-moving field, learn the current vocabulary first from r
 
 Search for the outcome and for the specific part that needs help, phrased a few ways. A component can replace part of the work without replacing the system. Look across registries, repositories, communities, comparisons and integrations. AI skills and reusable instructions count as tools.
 
-For AI skills, use Vercel's `find-skills` (`vercel-labs/skills`) if it is installed, and judge its results by the criteria here.
+For AI skills, resolve Vercel's `find-skills` (`vercel-labs/skills`) through the host's skill catalog or installed skills. If available, **read its `SKILL.md` and carry out its discovery procedure before evaluating candidates**. Complete its catalog/leaderboard checks as well as its keyword searches; invoking `skills find` or searching GitHub alone does not complete this route. Judge the candidates by the criteria here, including the rule against popularity cutoffs.
+
+If `find-skills` is unavailable, use [skills.sh](https://skills.sh/) directly to check established and trending skills, then search the relevant categories and terms. Check the actual catalog entries before following candidates to their repositories. Do not install the companion just to satisfy this step.
+
+A failed page load leaves that discovery step unfinished. Try another permitted route or source serving the same purpose. If the gap remains, report the partial search; do not silently skip to a final recommendation.
 
 If results are thin, follow references and alternatives past the first catalog or familiar vendor. Match the effort to the decision; a quick lookup doesn't need to become a market study.
 
@@ -36,6 +40,6 @@ Stars, installs and official backing tell you where to look, not whether somethi
 
 Compare the serious candidates with what you already have and with the smallest custom solution. Prefer options whose benefits outweigh the cost of switching. Stop when the evidence supports a choice or you reach the agreed limit on effort or access.
 
-Before saying nothing fits, try the new terms and one more search route, then say what you searched and what is still open. A partial search or a failed fetch doesn't show that no tool exists.
+Before choosing or saying nothing fits, check the tool results against the applicable discovery steps, including any companion skill's steps. A named skill, attempted URL, or CLI invocation is not evidence that its procedure finished. Try the new terms and one more search route before concluding nothing fits.
 
-Report what gets easier, what you chose and why, the tradeoffs, and what you couldn't verify, with links. Proceed within what the task allows. Add new skills through the host's own skill-management process.
+Report the catalogs and practitioner sources actually read, what they established, and any discovery gaps, with links. Then give the choice, tradeoffs, and what remains unverified. Keep incomplete searches provisional. Proceed within what the task allows. Add new skills through the host's own skill-management process.
