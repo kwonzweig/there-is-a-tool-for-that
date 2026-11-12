@@ -33,7 +33,7 @@ npx skills add kwonzweig/there-is-a-tool-for-that
 3. Weighs adoption and independent experience alongside the actual docs, code or `SKILL.md`, using the same standard for established and niche tools.
 4. Explains how that evidence affected the shortlist and choice, including what it couldn't verify.
 
-It kicks in before unfamiliar or recurring work, or when you ask for a tool. When Vercel's [find-skills](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) is available, it reads and follows that skill's discovery procedure, including catalog checks. Otherwise, it starts skill discovery at [skills.sh](https://skills.sh/). Unread sources stay visible as gaps instead of becoming a finished recommendation.
+It kicks in before unfamiliar or recurring work, or when you ask for a tool. It starts from a [list of known sources](skills/find-tools/references/known-sources.md), GitHub trending, Trendshift and skills.sh first, and searches the web past it. When Vercel's [find-skills](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) is available, it also follows that skill's discovery procedure. Unread sources stay visible as gaps instead of becoming a finished recommendation.
 
 The full instructions are in [SKILL.md](skills/find-tools/SKILL.md).
 
