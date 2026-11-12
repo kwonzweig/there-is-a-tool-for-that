@@ -12,17 +12,15 @@ Assume a reusable solution may already exist, and search past what you remember.
 
 Work out the outcome, what makes it hard, and the constraints. Ask only for information that would change the search.
 
-Start with what is already here: installed tools and skills, platform features, project dependencies and code, shared components, earlier internal solutions. Check whether they work in this setup, reuse what fits, and search only for the gaps. If something already meets the need, stop. Keep private details out of public queries.
+Start with what is already here: installed tools and skills, the catalog or stack list the user keeps, platform features, project dependencies and code, shared components, earlier internal solutions. Check whether they work in this setup, reuse what fits, and search only for the gaps. If something already meets the need, stop. Keep private details out of public queries.
 
 For adoption, replacement or build decisions, establish how people solve this problem before narrowing the candidates. Read practitioner comparisons, discussions and accounts of real work. Identify recurring approaches, widely used options, who uses them and the reported benefits and costs. Follow their references and search with the terms you learn. Match the depth to the decision; routine lookups can stay brief.
 
 ## Search past the first results
 
-Search for the outcome and the specific gap, phrased a few ways. Look across registries, communities, comparisons, integrations and repositories. A component or reusable instruction can replace part of the work without replacing the system.
+Read the primary sources in [known sources](references/known-sources.md) in order: GitHub trending, Trendshift, skills.sh. Then add the listed sources that fit the subject, and sources the list lacks when the subject needs them. The list is where the search starts: search the web for the outcome and the specific gap, phrased a few ways, and follow what you find past the list. A component or reusable instruction can replace part of the work without replacing the system.
 
-For AI skills, resolve Vercel's `find-skills` (`vercel-labs/skills`) through the host's catalog or installed skills. **Read its `SKILL.md` and execute its discovery procedure**, including catalog/leaderboard checks and keyword searches. A CLI invocation or GitHub search alone is incomplete. Use the assessment criteria here rather than fixed popularity cutoffs.
-
-If the companion is unavailable, use [skills.sh](https://skills.sh/): check established and trending skills, search relevant terms, and read actual entries before their repositories. Do not install the companion just for discovery. Catalogs complement practitioner research.
+For AI skills, resolve Vercel's `find-skills` (`vercel-labs/skills`) through the host's catalog or installed skills. **Read its `SKILL.md` and execute its discovery procedure**, including catalog/leaderboard checks and keyword searches. A CLI invocation or GitHub search alone is incomplete. Use the assessment criteria here rather than fixed popularity cutoffs. Do not install the companion just for discovery.
 
 A failed page load leaves that step unfinished. Try another permitted route or source serving the same purpose; report remaining gaps.
 
