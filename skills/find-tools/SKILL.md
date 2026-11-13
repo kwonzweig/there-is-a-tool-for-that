@@ -18,7 +18,7 @@ For adoption, replacement or build decisions, establish how people solve this pr
 
 ## Search past the first results
 
-Read the primary sources in [known sources](references/known-sources.md) in order: GitHub trending, Trendshift, skills.sh. Then add the listed sources that fit the subject, and sources the list lacks when the subject needs them. The list is where the search starts: search the web for the outcome and the specific gap, phrased a few ways, and follow what you find past the list. A component or reusable instruction can replace part of the work without replacing the system.
+Read the primary sources in [known sources](references/known-sources.md) in their listed order. Then add the listed sources that fit the subject, and sources the list lacks when the subject needs them. The list is where the search starts: search the web for the outcome and the specific gap, phrased a few ways, and follow what you find past the list. A component or reusable instruction can replace part of the work without replacing the system.
 
 For AI skills, resolve Vercel's `find-skills` (`vercel-labs/skills`) through the host's catalog or installed skills. **Read its `SKILL.md` and execute its discovery procedure**, including catalog/leaderboard checks and keyword searches. A CLI invocation or GitHub search alone is incomplete. Use the assessment criteria here rather than fixed popularity cutoffs. Do not install the companion just for discovery.
 
