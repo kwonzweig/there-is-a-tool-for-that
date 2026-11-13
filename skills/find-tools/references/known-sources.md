@@ -30,7 +30,7 @@ Skill, plugin and agent directories:
 MCP directories:
 
 - [Official MCP Registry](https://registry.modelcontextprotocol.io/): server, package and remote transport metadata through a [documented API](https://github.com/modelcontextprotocol/registry/blob/main/docs/reference/api/official-registry-api.md).
-- [Glama MCP directory](https://glama.ai/mcp/servers): searchable servers with source repos, tools, package downloads and license, quality and maintenance assessments.
+- [Glama MCP directory](https://glama.ai/mcp/servers): searchable servers with source repos, tools, package download counts and license, quality and maintenance assessments.
 - [Smithery](https://www.smithery.ai/): searchable MCP server listings linking to their connection details.
 
 Follow catalog records to the original source before reuse. Keep catalog install counts, package downloads and skills.sh installs separate; host support depends on the component's format and requirements.
